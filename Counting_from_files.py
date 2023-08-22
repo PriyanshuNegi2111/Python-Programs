@@ -1,6 +1,8 @@
 #Program for calculating the number of times "the" and "that" comes in file "story.txt"
+#The file should be in .txt format only
 
-a=open("story.txt").readlines()     
+
+a=open("story.txt").readlines()     #you can change the story.txt file to your choice file
 b,c,d=0,0,0
 for i in range (len(a)):
   b=a[i].split(" ")
